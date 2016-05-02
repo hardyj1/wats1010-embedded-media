@@ -15,26 +15,26 @@ movie for us to experiment with.
 Requirements
 ------------
 
-* Create an elegant presentation for the content on this page with clearly
-  defined sections so it is easy for users to browse the contents.
-* Fill in each respective section with appropriate content.
-* Offer MP4 and WEBM video in a default HTML5 video player.
-* Style the containers and presentation of the audio and video to highlight the
-  experience, making it more enjoyable for users.
-* Provide internal links for quick access to different portions of the page.
-* Use positioning and hover effects to make a persistent "share" box with
-  social network links.
-* Complete all of the TODOs defined in the file.
-* Choose image formats wisely given different use cases. When creating images,
-  also choose wisely to use the appropriate format.
-* Right now you have only been supplied with a 1080p WEBM format video. Convert
-  that video to an MP4 so more browsers can display the video with a native
-  videoplayer. (**NOTE:** Your MP4 version must be under 100mb, and it's best if
-  it can be under 50mb, although in this one case it's OK as long as it's
-  under 100mb in file size.)
-* Resize and optimize the images you use throughout so they fit into their
-  appropriate roles as efficiently as possible.
-* Create a new favicon that better represents the page as you've designed it.
+  * Create an elegant presentation for the content on this page with clearly
+    defined sections so it is easy for users to browse the contents.
+  * Fill in each respective section with appropriate content.
+  * Offer MP4 and WEBM video in a default HTML5 video player.
+  * Style the containers and presentation of the audio and video to highlight the
+    experience, making it more enjoyable for users.
+  * Provide internal links for quick access to different portions of the page.
+  * Use positioning and hover effects to make a persistent "share" box with
+    social network links.
+  * Complete all of the TODOs defined in the file.
+  * Choose image formats wisely given different use cases. When creating images,
+    also choose wisely to use the appropriate format.
+  * Right now you have only been supplied with a 1080p WEBM format video. Convert
+    that video to an MP4 so more browsers can display the video with a native
+    videoplayer. (**NOTE:** Your MP4 version must be under 100mb, and it's best if
+    it can be under 50mb, although in this one case it's OK as long as it's
+    under 100mb in file size.)
+  * Resize and optimize the images you use throughout so they fit into their
+    appropriate roles as efficiently as possible.
+  * Create a new favicon that better represents the page as you've designed it.
 
 
 Stretch Goals

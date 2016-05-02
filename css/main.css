@@ -4,7 +4,169 @@
  *
  * Site Styles
  *****************************************************************************/
+html {
+  padding
+  margin
+}
+/*styled body text and background*/
+body{
+  font-family:'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  font-size: 20px;
+	background-color: lightgray;
+}
+/* added header image and styled section */
+header {
+  min-height: 400px;
+  background-image: url('../img/monkaa_title.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border: 2px solid darkgray;
+  padding:10px;
+	margin: 10px 40px;
+}
+/* added shadow to section headers*/
+h2 {
+  text-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+/* changed .main-nav list to inline display*/
+.main-nav li {
+  display: inline;
+  text-align: center;
+}
+/*styled and positioned subtitle*/
+.subtitle {
+  text-align: center;
+  padding-top: 10px;
+  font-size: x-large;
+  border-bottom: #808080;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  color: white;
+}
+/*fixed social links to the right side of page and styled background and border*/
+#social {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -15.5em;
+  border: 1px solid white;
+  border-radius: 3em 0.5em 0.5em 3em;
+  background-color: darkgray;  
+  text-align: left;
+  padding-bottom:;
+  opacity: 0.5;
+  box-shadow: 0 1px 3px black;
+  padding: 0.5em 0.5em 0.5em 2.5em;
+  }
+/*hovered social links section*/
+#social:hover {
+  width: 300px;
+  height: 200px;
+}
+/* removed bullets in list*/
+#social ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* styled download buttons for audio and video */
+.download-button {
+  background-color:#ed8223;
+	color:#fff;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:18px;
+	line-height:30px;
+	border-radius:20px;
+	
+	border:0;
+	text-shadow:#C17C3A 0 -1px 0;
+	width:120px;
+	height:32px
+}
+/*styled and positioned Monkaa video*/
+video {
+  width: 50%;
+  height 50%;
+  padding-left: 49%;
+}
+/* added background image and styled section*/
+#watch {
+  background-image: url('../img/monkaa_monkeyhang.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid darkgray;
+  padding: 20px;  
+	margin: 10px 40px;
+}
+/*removed bullets from all lists*/
+ul {
+  list-style-type: none;
+}
 
- html {
-     color: green;
- }
+img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+/*added background image and styled section*/
+#listen {
+  background-image: url('../img/monkey_flight.jpg');
+  background-size: cover;
+  border: 2px solid darkgray;
+  min-height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+	margin: 10px 40px;
+}
+/*attempted to style mp3 plaback bar*/
+.controls {
+  display: block;
+    width: 34px;
+    height: 34px;
+    background-image: url(../img/monkaa_title.jpg);
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 5px;
+}
+/*attempted to display profiles inline*/
+.weybec_people li {
+  display: inline-block;
+    list-style-type: none;
+    padding-right: 20px;
+    vertical-align: middle;
+	min width: 500px;
+}
+	/* styled about section text, background, border*/
+#about {
+  background-image: url('../img/Monkaa-title2.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  padding: 20px;
+	margin: 10px 40px;
+	background-color: white;
+	border: 2px solid darkgray;
+}
+/* styled lead paragraph in 'about' section*/
+.lead {
+	
+}
+
+/*styled footer text and background*/
+footer {
+  border: 2px solid darkgray;
+  list-style-type: inline;
+	margin: 10px 40px;
+	background-color: white;
+	padding: 20px;
+}
+/*changed font style in footer paragraph*/
+footer p {
+  font-style: oblique;
+}
+
+
